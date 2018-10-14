@@ -5,12 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>Rick and Morty</title>
 </head>
 
 <body>
-    <button>Get Character Data</button>
-    <div id="result"></div>
+    <div id="main">
+        <div id="header">
+
+            <div id="SearchContents">
+                <img src="rick-morty.png" alt="rick-morty.jpg" id='HeaderImage' />
+                <textarea name="SearchBar" id="SearchBar" cols="20" rows="1"></textarea>
+                <button onclick='Search()'>Get Character Data</button>
+            </div>
+
+        </div>
+
+        <div id="Result">
+
+        </div>
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js'></script>
+    <script src='magic.js'> </script>
 </body>
 
 </html>

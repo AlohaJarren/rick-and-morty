@@ -1,0 +1,106 @@
+html,body,#main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(252, 250, 250);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#header,#Result {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+}
+
+#HeaderImage {
+    margin: 0 auto;
+    max-width: 25%;
+}
+
+#SearchContents {
+    display: inline-flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#SearchBar {
+    border: 2px solid greenyellow;
+    font-size: 2em;
+    padding: 2%;
+}
+
+#SearchContents > button {
+    background: none;
+    border: 2px solid greenyellow;
+    border-top: none;
+    height: 3em;
+}
+
+#Result {
+    width: 100%;
+    height: 70%;
+    overflow: scroll;
+}
+
+.Card {
+    display: inline-flex;
+    width: 30em;
+    height: 15em;
+    margin: 2em;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+    border: 2px solid greenyellow;
+    border-radius: 1.5%;
+    transition: box-shadow 0.5s;
+    box-shadow: 2px 3px 25px rgba(0,0,0,0.1);
+}
+
+.Card:hover {
+    box-shadow: 2px 8px 45px rgba(0,0,0,0.5);
+}
+
+.img {
+    width: 15em;
+    height: 15em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.words {
+    width: 15em;
+    height: 15em;
+}
+
+.words > p {
+    text-align: center;
+}
+
+.name {
+    font-size: 140%;
+}
+
+::-webkit-scrollbar { /* stupid scrollbar */
+    width: 0px;
+    background: transparent;  
+}
+
+.error {
+    width: 100%;
+    height: 100%;
+    font-size: 150%;
+    text-align: center
+}
