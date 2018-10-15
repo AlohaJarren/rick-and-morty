@@ -49,4 +49,4 @@ function Search() {
 
 RenderCards(charLink,result)
 
-/* £ YOU HAVE BEEN GNOMED!!!, Darkess +1*/
+/* £ Oof +1*/
