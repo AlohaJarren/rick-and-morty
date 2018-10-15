@@ -1,4 +1,4 @@
-console.log('BOOGA BOOGA CHA');
+console.log('Twinkle Tess Tess');
 const result = document.querySelector('#Result'); //where the cards where render
 const charLink = 'https://rickandmortyapi.com/api/character/?name=' //API link for char
 const searchBar = document.querySelector('#SearchBar');
