@@ -68,7 +68,7 @@ html,body,#main {
     box-shadow: 2px 3px 25px rgba(0,0,0,0.1);
 }
 
-.Card:hover {
+.Card:hover { /* Hover Feature*/
     box-shadow: 2px 8px 45px rgba(0,0,0,0.5);
 }
 
@@ -93,7 +93,7 @@ html,body,#main {
     font-size: 140%;
 }
 
-::-webkit-scrollbar { /* stupid scrollbar */
+::-webkit-scrollbar { /* scrollbar */
     width: 0px;
     background: transparent;  
 }
